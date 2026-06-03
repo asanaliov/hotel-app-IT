@@ -1,0 +1,317 @@
+[
+  {
+    "TestName": "GuestControllerTests.Api_GetGuests_ReturnsJsonList",
+    "StudentId": "YOUR_INDEX_HERE",
+    "TestCategory": "GuestController",
+    "IsPassed": false,
+    "ExecutedAt": "2026-06-02T19:14:58.6135035+02:00",
+    "ErrorMessage": "Response status code does not indicate success: 404 (Not Found).",
+    "Points": 5
+  },
+  {
+    "TestName": "GuestControllerTests.Details_ValidId_ReturnsGuest",
+    "StudentId": "YOUR_INDEX_HERE",
+    "TestCategory": "GuestController",
+    "IsPassed": false,
+    "ExecutedAt": "2026-06-02T19:14:58.8304803+02:00",
+    "ErrorMessage": "Sequence contains no elements",
+    "Points": 1
+  },
+  {
+    "TestName": "GuestControllerTests.CheckOut_SetsCheckOutDateAndRedirectsToGuestDetails",
+    "StudentId": "YOUR_INDEX_HERE",
+    "TestCategory": "GuestController",
+    "IsPassed": false,
+    "ExecutedAt": "2026-06-02T19:14:58.9225492+02:00",
+    "ErrorMessage": "Assert.NotNull() Failure: Value is null",
+    "Points": 5
+  },
+  {
+    "TestName": "GuestControllerTests.Delete_ValidGuest_RemovesAndRedirects",
+    "StudentId": "YOUR_INDEX_HERE",
+    "TestCategory": "GuestController",
+    "IsPassed": false,
+    "ExecutedAt": "2026-06-02T19:14:59.0057254+02:00",
+    "ErrorMessage": "Sequence contains no elements",
+    "Points": 1
+  },
+  {
+    "TestName": "GuestControllerTests.Tabulator_ReturnsView",
+    "StudentId": "YOUR_INDEX_HERE",
+    "TestCategory": "GuestController",
+    "IsPassed": false,
+    "ExecutedAt": "2026-06-02T19:14:59.0832624+02:00",
+    "ErrorMessage": "Response status code does not indicate success: 404 (Not Found).",
+    "Points": 3
+  },
+  {
+    "TestName": "GuestControllerTests.Edit_ValidGuest_RedirectsToIndex",
+    "StudentId": "YOUR_INDEX_HERE",
+    "TestCategory": "GuestController",
+    "IsPassed": false,
+    "ExecutedAt": "2026-06-02T19:14:59.1330731+02:00",
+    "ErrorMessage": "Sequence contains no elements",
+    "Points": 1
+  },
+  {
+    "TestName": "GuestControllerTests.Create_ValidGuest_RedirectsToIndex",
+    "StudentId": "YOUR_INDEX_HERE",
+    "TestCategory": "GuestController",
+    "IsPassed": false,
+    "ExecutedAt": "2026-06-02T19:14:59.2332476+02:00",
+    "ErrorMessage": "Antiforgery token not found",
+    "Points": 1
+  },
+  {
+    "TestName": "GuestControllerTests.Create_MissingFirstName_ReturnsView",
+    "StudentId": "YOUR_INDEX_HERE",
+    "TestCategory": "GuestController",
+    "IsPassed": false,
+    "ExecutedAt": "2026-06-02T19:14:59.3008826+02:00",
+    "ErrorMessage": "Antiforgery token not found",
+    "Points": 3
+  },
+  {
+    "TestName": "GuestControllerTests.Create_MissingLastName_ReturnsView",
+    "StudentId": "YOUR_INDEX_HERE",
+    "TestCategory": "GuestController",
+    "IsPassed": false,
+    "ExecutedAt": "2026-06-02T19:14:59.3594634+02:00",
+    "ErrorMessage": "Antiforgery token not found",
+    "Points": 3
+  },
+  {
+    "TestName": "GuestControllerTests.Create_InvalidPhoneNumber_ReturnsView",
+    "StudentId": "YOUR_INDEX_HERE",
+    "TestCategory": "GuestController",
+    "IsPassed": false,
+    "ExecutedAt": "2026-06-02T19:14:59.4292581+02:00",
+    "ErrorMessage": "Antiforgery token not found",
+    "Points": 5
+  },
+  {
+    "TestName": "GuestControllerTests.Details_InvalidId_ReturnsNotFound",
+    "StudentId": "YOUR_INDEX_HERE",
+    "TestCategory": "GuestController",
+    "IsPassed": true,
+    "ExecutedAt": "2026-06-02T19:14:59.508821+02:00",
+    "ErrorMessage": null,
+    "Points": 1
+  },
+  {
+    "TestName": "HotelControllerTests.Index_ShowsRoomCountPerHotel",
+    "StudentId": "YOUR_INDEX_HERE",
+    "TestCategory": "HotelController",
+    "IsPassed": false,
+    "ExecutedAt": "2026-06-02T19:14:59.5677539+02:00",
+    "ErrorMessage": "Response status code does not indicate success: 404 (Not Found).",
+    "Points": 5
+  },
+  {
+    "TestName": "HotelControllerTests.Index_FilterValues_PersistInFormAfterSearch",
+    "StudentId": "YOUR_INDEX_HERE",
+    "TestCategory": "HotelController",
+    "IsPassed": false,
+    "ExecutedAt": "2026-06-02T19:14:59.6743363+02:00",
+    "ErrorMessage": "Response status code does not indicate success: 404 (Not Found).",
+    "Points": 5
+  },
+  {
+    "TestName": "HotelControllerTests.Index_ReturnsAllHotels",
+    "StudentId": "YOUR_INDEX_HERE",
+    "TestCategory": "HotelController",
+    "IsPassed": false,
+    "ExecutedAt": "2026-06-02T19:14:59.7591866+02:00",
+    "ErrorMessage": "Response status code does not indicate success: 404 (Not Found).",
+    "Points": 1
+  },
+  {
+    "TestName": "HotelControllerTests.Index_FilterByCity_ReturnsMatchingHotels",
+    "StudentId": "YOUR_INDEX_HERE",
+    "TestCategory": "HotelController",
+    "IsPassed": false,
+    "ExecutedAt": "2026-06-02T19:14:59.8133845+02:00",
+    "ErrorMessage": "Response status code does not indicate success: 404 (Not Found).",
+    "Points": 5
+  },
+  {
+    "TestName": "HotelControllerTests.Index_FilterByName_ReturnsMatchingHotel",
+    "StudentId": "YOUR_INDEX_HERE",
+    "TestCategory": "HotelController",
+    "IsPassed": false,
+    "ExecutedAt": "2026-06-02T19:14:59.875605+02:00",
+    "ErrorMessage": "Response status code does not indicate success: 404 (Not Found).",
+    "Points": 5
+  },
+  {
+    "TestName": "HotelControllerTests.Create_InvalidHotel_ReturnsView",
+    "StudentId": "YOUR_INDEX_HERE",
+    "TestCategory": "HotelController",
+    "IsPassed": false,
+    "ExecutedAt": "2026-06-02T19:14:59.9413092+02:00",
+    "ErrorMessage": "Antiforgery token not found",
+    "Points": 1
+  },
+  {
+    "TestName": "HotelControllerTests.Delete_InvalidId_ReturnsNotFound",
+    "StudentId": "YOUR_INDEX_HERE",
+    "TestCategory": "HotelController",
+    "IsPassed": true,
+    "ExecutedAt": "2026-06-02T19:15:00.023761+02:00",
+    "ErrorMessage": null,
+    "Points": 1
+  },
+  {
+    "TestName": "HotelControllerTests.Index_HotelNameIsLinkToDetails",
+    "StudentId": "YOUR_INDEX_HERE",
+    "TestCategory": "HotelController",
+    "IsPassed": false,
+    "ExecutedAt": "2026-06-02T19:15:00.0699666+02:00",
+    "ErrorMessage": "Sequence contains no elements",
+    "Points": 5
+  },
+  {
+    "TestName": "HotelControllerTests.Create_ValidHotel_RedirectsToIndex",
+    "StudentId": "YOUR_INDEX_HERE",
+    "TestCategory": "HotelController",
+    "IsPassed": false,
+    "ExecutedAt": "2026-06-02T19:15:00.1530221+02:00",
+    "ErrorMessage": "Antiforgery token not found",
+    "Points": 1
+  },
+  {
+    "TestName": "HotelControllerTests.Delete_ValidHotel_RedirectsToIndex",
+    "StudentId": "YOUR_INDEX_HERE",
+    "TestCategory": "HotelController",
+    "IsPassed": false,
+    "ExecutedAt": "2026-06-02T19:15:00.2136504+02:00",
+    "ErrorMessage": "Sequence contains no elements",
+    "Points": 1
+  },
+  {
+    "TestName": "HotelControllerTests.Details_ValidId_ReturnsHotel",
+    "StudentId": "YOUR_INDEX_HERE",
+    "TestCategory": "HotelController",
+    "IsPassed": false,
+    "ExecutedAt": "2026-06-02T19:15:00.2570317+02:00",
+    "ErrorMessage": "Sequence contains no elements",
+    "Points": 1
+  },
+  {
+    "TestName": "HotelControllerTests.Edit_MismatchedId_ReturnsNotFound",
+    "StudentId": "YOUR_INDEX_HERE",
+    "TestCategory": "HotelController",
+    "IsPassed": false,
+    "ExecutedAt": "2026-06-02T19:15:00.2954095+02:00",
+    "ErrorMessage": "Sequence contains no elements",
+    "Points": 1
+  },
+  {
+    "TestName": "HotelControllerTests.Edit_ValidHotel_RedirectsToIndex",
+    "StudentId": "YOUR_INDEX_HERE",
+    "TestCategory": "HotelController",
+    "IsPassed": false,
+    "ExecutedAt": "2026-06-02T19:15:00.3494427+02:00",
+    "ErrorMessage": "Sequence contains no elements",
+    "Points": 1
+  },
+  {
+    "TestName": "HotelControllerTests.Details_InvalidId_ReturnsNotFound",
+    "StudentId": "YOUR_INDEX_HERE",
+    "TestCategory": "HotelController",
+    "IsPassed": true,
+    "ExecutedAt": "2026-06-02T19:15:00.4456603+02:00",
+    "ErrorMessage": null,
+    "Points": 1
+  },
+  {
+    "TestName": "RoomControllerTests.Reserve_GET_ShowsRoomNumber",
+    "StudentId": "YOUR_INDEX_HERE",
+    "TestCategory": "RoomController",
+    "IsPassed": false,
+    "ExecutedAt": "2026-06-02T19:15:00.5394264+02:00",
+    "ErrorMessage": "Sequence contains no elements",
+    "Points": 5
+  },
+  {
+    "TestName": "RoomControllerTests.Index_ShowsImageAsImg",
+    "StudentId": "YOUR_INDEX_HERE",
+    "TestCategory": "RoomController",
+    "IsPassed": false,
+    "ExecutedAt": "2026-06-02T19:15:00.5959102+02:00",
+    "ErrorMessage": "Response status code does not indicate success: 404 (Not Found).",
+    "Points": 5
+  },
+  {
+    "TestName": "RoomControllerTests.Reserve_POST_SavesReservationAndRedirectsToRoomDetails",
+    "StudentId": "YOUR_INDEX_HERE",
+    "TestCategory": "RoomController",
+    "IsPassed": false,
+    "ExecutedAt": "2026-06-02T19:15:00.6466102+02:00",
+    "ErrorMessage": "Sequence contains no elements",
+    "Points": 5
+  },
+  {
+    "TestName": "RoomControllerTests.AddRoom_AfterCreate_RedirectsToHotelDetails",
+    "StudentId": "YOUR_INDEX_HERE",
+    "TestCategory": "RoomController",
+    "IsPassed": false,
+    "ExecutedAt": "2026-06-02T19:15:00.7005213+02:00",
+    "ErrorMessage": "Sequence contains no elements",
+    "Points": 5
+  },
+  {
+    "TestName": "RoomControllerTests.Reserve_GET_ShowsGuestDropdown",
+    "StudentId": "YOUR_INDEX_HERE",
+    "TestCategory": "RoomController",
+    "IsPassed": false,
+    "ExecutedAt": "2026-06-02T19:15:00.749873+02:00",
+    "ErrorMessage": "Sequence contains no elements",
+    "Points": 5
+  },
+  {
+    "TestName": "RoomControllerTests.Delete_ValidRoom_RemovesAndRedirects",
+    "StudentId": "YOUR_INDEX_HERE",
+    "TestCategory": "RoomController",
+    "IsPassed": false,
+    "ExecutedAt": "2026-06-02T19:15:00.7945681+02:00",
+    "ErrorMessage": "Sequence contains no elements",
+    "Points": 1
+  },
+  {
+    "TestName": "RoomControllerTests.Details_ShowsCurrentReservationsWhereCheckOutDateIsNull",
+    "StudentId": "YOUR_INDEX_HERE",
+    "TestCategory": "RoomController",
+    "IsPassed": false,
+    "ExecutedAt": "2026-06-02T19:15:00.8580328+02:00",
+    "ErrorMessage": "Sequence contains no elements",
+    "Points": 5
+  },
+  {
+    "TestName": "RoomControllerTests.Create_ValidRoom_SavesAndRedirects",
+    "StudentId": "YOUR_INDEX_HERE",
+    "TestCategory": "RoomController",
+    "IsPassed": false,
+    "ExecutedAt": "2026-06-02T19:15:00.9025247+02:00",
+    "ErrorMessage": "Sequence contains no elements",
+    "Points": 1
+  },
+  {
+    "TestName": "RoomControllerTests.Reserve_GET_ShowsHotelName",
+    "StudentId": "YOUR_INDEX_HERE",
+    "TestCategory": "RoomController",
+    "IsPassed": false,
+    "ExecutedAt": "2026-06-02T19:15:00.9625155+02:00",
+    "ErrorMessage": "Sequence contains no elements",
+    "Points": 5
+  },
+  {
+    "TestName": "RoomControllerTests.Details_InvalidId_ReturnsNotFound",
+    "StudentId": "YOUR_INDEX_HERE",
+    "TestCategory": "RoomController",
+    "IsPassed": true,
+    "ExecutedAt": "2026-06-02T19:15:01.0283088+02:00",
+    "ErrorMessage": null,
+    "Points": 1
+  }
+]

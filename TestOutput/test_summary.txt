@@ -1,0 +1,86 @@
+  [31m✗[0m [31mFAIL[0m  [90m[19:14:58][0m [36mGuestController[0m GuestControllerTests.Api_GetGuests_ReturnsJsonList [90m 5 pts[0m
+  [31m✗[0m [31mFAIL[0m  [90m[19:14:58][0m [36mGuestController[0m GuestControllerTests.Details_ValidId_ReturnsGuest [90m 1 pts[0m
+  [31m✗[0m [31mFAIL[0m  [90m[19:14:58][0m [36mGuestController[0m GuestControllerTests.CheckOut_SetsCheckOutDateAndRedirectsToGuestDetails [90m 5 pts[0m
+  [31m✗[0m [31mFAIL[0m  [90m[19:14:59][0m [36mGuestController[0m GuestControllerTests.Delete_ValidGuest_RemovesAndRedirects [90m 1 pts[0m
+  [31m✗[0m [31mFAIL[0m  [90m[19:14:59][0m [36mGuestController[0m GuestControllerTests.Tabulator_ReturnsView [90m 3 pts[0m
+  [31m✗[0m [31mFAIL[0m  [90m[19:14:59][0m [36mGuestController[0m GuestControllerTests.Edit_ValidGuest_RedirectsToIndex [90m 1 pts[0m
+  [31m✗[0m [31mFAIL[0m  [90m[19:14:59][0m [36mGuestController[0m GuestControllerTests.Create_ValidGuest_RedirectsToIndex [90m 1 pts[0m
+  [31m✗[0m [31mFAIL[0m  [90m[19:14:59][0m [36mGuestController[0m GuestControllerTests.Create_MissingFirstName_ReturnsView [90m 3 pts[0m
+  [31m✗[0m [31mFAIL[0m  [90m[19:14:59][0m [36mGuestController[0m GuestControllerTests.Create_MissingLastName_ReturnsView [90m 3 pts[0m
+  [31m✗[0m [31mFAIL[0m  [90m[19:14:59][0m [36mGuestController[0m GuestControllerTests.Create_InvalidPhoneNumber_ReturnsView [90m 5 pts[0m
+  [32m✔[0m [32mPASS[0m  [90m[19:14:59][0m [36mGuestController[0m GuestControllerTests.Details_InvalidId_ReturnsNotFound [90m 1 pts[0m
+  [31m✗[0m [31mFAIL[0m  [90m[19:14:59][0m [36mHotelController[0m HotelControllerTests.Index_ShowsRoomCountPerHotel [90m 5 pts[0m
+  [31m✗[0m [31mFAIL[0m  [90m[19:14:59][0m [36mHotelController[0m HotelControllerTests.Index_FilterValues_PersistInFormAfterSearch [90m 5 pts[0m
+  [31m✗[0m [31mFAIL[0m  [90m[19:14:59][0m [36mHotelController[0m HotelControllerTests.Index_ReturnsAllHotels [90m 1 pts[0m
+  [31m✗[0m [31mFAIL[0m  [90m[19:14:59][0m [36mHotelController[0m HotelControllerTests.Index_FilterByCity_ReturnsMatchingHotels [90m 5 pts[0m
+  [31m✗[0m [31mFAIL[0m  [90m[19:14:59][0m [36mHotelController[0m HotelControllerTests.Index_FilterByName_ReturnsMatchingHotel [90m 5 pts[0m
+  [31m✗[0m [31mFAIL[0m  [90m[19:14:59][0m [36mHotelController[0m HotelControllerTests.Create_InvalidHotel_ReturnsView [90m 1 pts[0m
+  [32m✔[0m [32mPASS[0m  [90m[19:15:00][0m [36mHotelController[0m HotelControllerTests.Delete_InvalidId_ReturnsNotFound [90m 1 pts[0m
+  [31m✗[0m [31mFAIL[0m  [90m[19:15:00][0m [36mHotelController[0m HotelControllerTests.Index_HotelNameIsLinkToDetails [90m 5 pts[0m
+  [31m✗[0m [31mFAIL[0m  [90m[19:15:00][0m [36mHotelController[0m HotelControllerTests.Create_ValidHotel_RedirectsToIndex [90m 1 pts[0m
+  [31m✗[0m [31mFAIL[0m  [90m[19:15:00][0m [36mHotelController[0m HotelControllerTests.Delete_ValidHotel_RedirectsToIndex [90m 1 pts[0m
+  [31m✗[0m [31mFAIL[0m  [90m[19:15:00][0m [36mHotelController[0m HotelControllerTests.Details_ValidId_ReturnsHotel [90m 1 pts[0m
+  [31m✗[0m [31mFAIL[0m  [90m[19:15:00][0m [36mHotelController[0m HotelControllerTests.Edit_MismatchedId_ReturnsNotFound [90m 1 pts[0m
+  [31m✗[0m [31mFAIL[0m  [90m[19:15:00][0m [36mHotelController[0m HotelControllerTests.Edit_ValidHotel_RedirectsToIndex [90m 1 pts[0m
+  [32m✔[0m [32mPASS[0m  [90m[19:15:00][0m [36mHotelController[0m HotelControllerTests.Details_InvalidId_ReturnsNotFound [90m 1 pts[0m
+  [31m✗[0m [31mFAIL[0m  [90m[19:15:00][0m [36mRoomController[0m RoomControllerTests.Reserve_GET_ShowsRoomNumber [90m 5 pts[0m
+  [31m✗[0m [31mFAIL[0m  [90m[19:15:00][0m [36mRoomController[0m RoomControllerTests.Index_ShowsImageAsImg [90m 5 pts[0m
+  [31m✗[0m [31mFAIL[0m  [90m[19:15:00][0m [36mRoomController[0m RoomControllerTests.Reserve_POST_SavesReservationAndRedirectsToRoomDetails [90m 5 pts[0m
+  [31m✗[0m [31mFAIL[0m  [90m[19:15:00][0m [36mRoomController[0m RoomControllerTests.AddRoom_AfterCreate_RedirectsToHotelDetails [90m 5 pts[0m
+  [31m✗[0m [31mFAIL[0m  [90m[19:15:00][0m [36mRoomController[0m RoomControllerTests.Reserve_GET_ShowsGuestDropdown [90m 5 pts[0m
+  [31m✗[0m [31mFAIL[0m  [90m[19:15:00][0m [36mRoomController[0m RoomControllerTests.Delete_ValidRoom_RemovesAndRedirects [90m 1 pts[0m
+  [31m✗[0m [31mFAIL[0m  [90m[19:15:00][0m [36mRoomController[0m RoomControllerTests.Details_ShowsCurrentReservationsWhereCheckOutDateIsNull [90m 5 pts[0m
+  [31m✗[0m [31mFAIL[0m  [90m[19:15:00][0m [36mRoomController[0m RoomControllerTests.Create_ValidRoom_SavesAndRedirects [90m 1 pts[0m
+  [31m✗[0m [31mFAIL[0m  [90m[19:15:00][0m [36mRoomController[0m RoomControllerTests.Reserve_GET_ShowsHotelName [90m 5 pts[0m
+  [32m✔[0m [32mPASS[0m  [90m[19:15:01][0m [36mRoomController[0m RoomControllerTests.Details_InvalidId_ReturnsNotFound [90m 1 pts[0m
+
+[1m[36m╔════════════════════════════════════════════════════════════════╗[0m
+[1m[36m║[0m[1m                  🏨  HOTEL APP — TEST RESULTS                  [0m[1m[36m║[0m
+[1m[36m╚════════════════════════════════════════════════════════════════╝[0m
+  [90mStudent[0m  [1mYOUR_INDEX_HERE[0m    [90mRun[0m  2026-06-02 19:15:01
+
+[1m[31m  ✗ FAILED TESTS (31)[0m
+[90m  ────────────────────────────────────────────────────────────────[0m
+  [31m•[0m [36m[GuestController][0m GuestControllerTests.Api_GetGuests_ReturnsJsonList [90m(5 pts)[0m
+  [31m•[0m [36m[GuestController][0m GuestControllerTests.Details_ValidId_ReturnsGuest [90m(1 pts)[0m
+  [31m•[0m [36m[GuestController][0m GuestControllerTests.CheckOut_SetsCheckOutDateAndRedirectsToGuestDetails [90m(5 pts)[0m
+  [31m•[0m [36m[GuestController][0m GuestControllerTests.Delete_ValidGuest_RemovesAndRedirects [90m(1 pts)[0m
+  [31m•[0m [36m[GuestController][0m GuestControllerTests.Tabulator_ReturnsView [90m(3 pts)[0m
+  [31m•[0m [36m[GuestController][0m GuestControllerTests.Edit_ValidGuest_RedirectsToIndex [90m(1 pts)[0m
+  [31m•[0m [36m[GuestController][0m GuestControllerTests.Create_ValidGuest_RedirectsToIndex [90m(1 pts)[0m
+  [31m•[0m [36m[GuestController][0m GuestControllerTests.Create_MissingFirstName_ReturnsView [90m(3 pts)[0m
+  [31m•[0m [36m[GuestController][0m GuestControllerTests.Create_MissingLastName_ReturnsView [90m(3 pts)[0m
+  [31m•[0m [36m[GuestController][0m GuestControllerTests.Create_InvalidPhoneNumber_ReturnsView [90m(5 pts)[0m
+  [31m•[0m [36m[HotelController][0m HotelControllerTests.Index_ShowsRoomCountPerHotel [90m(5 pts)[0m
+  [31m•[0m [36m[HotelController][0m HotelControllerTests.Index_FilterValues_PersistInFormAfterSearch [90m(5 pts)[0m
+  [31m•[0m [36m[HotelController][0m HotelControllerTests.Index_ReturnsAllHotels [90m(1 pts)[0m
+  [31m•[0m [36m[HotelController][0m HotelControllerTests.Index_FilterByCity_ReturnsMatchingHotels [90m(5 pts)[0m
+  [31m•[0m [36m[HotelController][0m HotelControllerTests.Index_FilterByName_ReturnsMatchingHotel [90m(5 pts)[0m
+  [31m•[0m [36m[HotelController][0m HotelControllerTests.Create_InvalidHotel_ReturnsView [90m(1 pts)[0m
+  [31m•[0m [36m[HotelController][0m HotelControllerTests.Index_HotelNameIsLinkToDetails [90m(5 pts)[0m
+  [31m•[0m [36m[HotelController][0m HotelControllerTests.Create_ValidHotel_RedirectsToIndex [90m(1 pts)[0m
+  [31m•[0m [36m[HotelController][0m HotelControllerTests.Delete_ValidHotel_RedirectsToIndex [90m(1 pts)[0m
+  [31m•[0m [36m[HotelController][0m HotelControllerTests.Details_ValidId_ReturnsHotel [90m(1 pts)[0m
+  [31m•[0m [36m[HotelController][0m HotelControllerTests.Edit_MismatchedId_ReturnsNotFound [90m(1 pts)[0m
+  [31m•[0m [36m[HotelController][0m HotelControllerTests.Edit_ValidHotel_RedirectsToIndex [90m(1 pts)[0m
+  [31m•[0m [36m[RoomController][0m RoomControllerTests.Reserve_GET_ShowsRoomNumber [90m(5 pts)[0m
+  [31m•[0m [36m[RoomController][0m RoomControllerTests.Index_ShowsImageAsImg [90m(5 pts)[0m
+  [31m•[0m [36m[RoomController][0m RoomControllerTests.Reserve_POST_SavesReservationAndRedirectsToRoomDetails [90m(5 pts)[0m
+  [31m•[0m [36m[RoomController][0m RoomControllerTests.AddRoom_AfterCreate_RedirectsToHotelDetails [90m(5 pts)[0m
+  [31m•[0m [36m[RoomController][0m RoomControllerTests.Reserve_GET_ShowsGuestDropdown [90m(5 pts)[0m
+  [31m•[0m [36m[RoomController][0m RoomControllerTests.Delete_ValidRoom_RemovesAndRedirects [90m(1 pts)[0m
+  [31m•[0m [36m[RoomController][0m RoomControllerTests.Details_ShowsCurrentReservationsWhereCheckOutDateIsNull [90m(5 pts)[0m
+  [31m•[0m [36m[RoomController][0m RoomControllerTests.Create_ValidRoom_SavesAndRedirects [90m(1 pts)[0m
+  [31m•[0m [36m[RoomController][0m RoomControllerTests.Reserve_GET_ShowsHotelName [90m(5 pts)[0m
+
+[1m  CATEGORY BREAKDOWN[0m
+[90m  ────────────────────────────────────────────────────────────────[0m
+  [36mGuestController[0m [31m█[0m[90m░░░░░░░░░░░░░░░░░░░░░░░[0m [1m  3.4%[0m  [90m1/11 tests · 1/29 pts[0m
+  [36mHotelController[0m [31m█[0m[90m░░░░░░░░░░░░░░░░░░░░░░░[0m [1m  5.9%[0m  [90m2/14 tests · 2/34 pts[0m
+  [36mRoomController[0m [31m█[0m[90m░░░░░░░░░░░░░░░░░░░░░░░[0m [1m  2.6%[0m  [90m1/10 tests · 1/38 pts[0m
+
+[1m[31m╔════════════════════════════════════════════════════════════════╗[0m
+  [32m✔ 4 passed[0m    [31m✗ 31 failed[0m    [90mof 35 total[0m
+  [1mSCORE[0m  [31m█[0m[90m░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m
+  [1m[31m➜  4 / 101 points   (4%)[0m
+[1m[31m╚════════════════════════════════════════════════════════════════╝[0m

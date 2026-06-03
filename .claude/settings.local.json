@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(\"/mnt/c/Program Files/dotnet/dotnet.exe\" test hotel-app.Tests/hotel-app.Tests.csproj --filter \"FullyQualifiedName~ControllersTests\" --logger \"console;verbosity=detailed\")",
+      "Bash(grep -aA 60 \"HOTEL APP\")"
+    ]
+  }
+}
